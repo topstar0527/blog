@@ -130,7 +130,7 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              Curtin University
+              Hong Kong University of Science and Technology
             </Typography>
             <Typography variant="h5" align="center" className={classes.body1}>
               Bachelor's Degree in Computer Science
@@ -203,10 +203,10 @@ const Resume = () => {
             Full Stack Web Developer
           </Typography>
           <Typography variant="body1" align="left" className={classes.body1}>
-            FASTDEV AB
+            CBX Software
           </Typography>
           <Typography variant="body1" align="left" className={classes.body1}>
-            <LocationOn/> Izhevsk, Russia Remote
+            <LocationOn/> Hong Kong
           </Typography>
         </Box>
         
@@ -272,13 +272,13 @@ const Resume = () => {
             align="right"
             className={classes.subHeading}
           >
-            Backend Developer
+            Front End Developer
           </Typography>
           <Typography variant="body1" align="right" className={classes.body1}>
-            ASPIRITY
+            Crowd Genie Finanical Services
           </Typography>
           <Typography variant="body1" align="right" className={classes.body1}>
-            <LocationOn/> Krasnoyarsk, Russia Remote
+            <LocationOn/> Singapore
           </Typography>
         </Box>
         
@@ -286,7 +286,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2016.5
+          2017.3
         </Typography>
 
 
@@ -299,10 +299,10 @@ const Resume = () => {
             Frontend Developer
           </Typography>
           <Typography variant="body1" align="left" className={classes.body1}>
-            SETRONICA
+            FastDev AB
           </Typography>
           <Typography variant="body1" align="left" className={classes.body1}>
-            <LocationOn/> Novosibirsk, Russia Remote
+            <LocationOn/> Izhevsk, Russia Remote
           </Typography>
         </Box>
         
@@ -310,7 +310,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014.6
+          2014.7
         </Typography>
       </Box>
     </Box>
