@@ -183,7 +183,7 @@ const Resume = () => {
             Self Employed
           </Typography>
           <Typography variant="body1" align="right" className={classes.body1}>
-            <LocationOn/> Australlia Remote
+            <LocationOn/> Remote
           </Typography>
         </Box>
         
@@ -205,7 +205,7 @@ const Resume = () => {
             Smart Cities Transport
           </Typography>
           <Typography variant="body1" align="left" className={classes.body1}>
-            <LocationOn/> Remote
+            <LocationOn/> Australia Remote
           </Typography>
         </Box>
         
