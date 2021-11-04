@@ -1,12 +1,9 @@
 import React from "react";
-import { makeStyles, withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
-import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 
-import Send from "@material-ui/icons/Send";
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -59,7 +56,7 @@ const contacts = [
   },
   {
     icon: <LinkedInIcon/>,
-    detail : "https://www.linkedin.com/in/kirill-jin-802584216/"
+    detail : "https://www.linkedin.com/in/sergey-jin-1a1099218/"
   },
   {
     icon: <WhatsAppIcon/>,

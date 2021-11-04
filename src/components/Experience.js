@@ -3,8 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Grid from "@material-ui/core/Grid";
-import UniversitySymbol from '../images/university/symbol.png';
-import UniversityImage from '../images/university/image.png'
+import UniversitySymbol from '../images/university/symbol.jpg';
+import UniversityImage from '../images/university/image.jpg'
 import LocationOn from '@material-ui/icons/LocationOn'
 
 const useStyles = makeStyles((theme) => ({
@@ -130,7 +130,7 @@ const Resume = () => {
               align="center"
               className={classes.subHeading}
             >
-              Hong Kong University of Science and Technology
+              Singapore University of Technology and Design
             </Typography>
             <Typography variant="h5" align="center" className={classes.body1}>
               Bachelor's Degree in Computer Science
@@ -183,6 +183,28 @@ const Resume = () => {
             Self Employed
           </Typography>
           <Typography variant="body1" align="right" className={classes.body1}>
+            <LocationOn/> Australlia Remote
+          </Typography>
+        </Box>
+        
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2021.8
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="left"
+            className={classes.subHeading}
+          >
+            Contract Web Developer
+          </Typography>
+          <Typography variant="body1" align="left" className={classes.body1}>
+            Smart Cities Transport
+          </Typography>
+          <Typography variant="body1" align="left" className={classes.body1}>
             <LocationOn/> Remote
           </Typography>
         </Box>
@@ -191,21 +213,20 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2020.5
+          2020.11
         </Typography>
-        
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
-            align="left"
+            align="right"
             className={classes.subHeading}
           >
             Full Stack Web Developer
           </Typography>
-          <Typography variant="body1" align="left" className={classes.body1}>
+          <Typography variant="body1" align="right" className={classes.body1}>
             CBX Software
           </Typography>
-          <Typography variant="body1" align="left" className={classes.body1}>
+          <Typography variant="body1" align="right" className={classes.body1}>
             <LocationOn/> Hong Kong
           </Typography>
         </Box>
@@ -221,15 +242,15 @@ const Resume = () => {
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
-            align="right"
+            align="left"
             className={classes.subHeading}
           >
             Senior MERN Stack Developer
           </Typography>
-          <Typography variant="body1" align="right" className={classes.body1}>
+          <Typography variant="body1" align="left" className={classes.body1}>
             UPWORK.com
           </Typography>
-          <Typography variant="body1" align="right" className={classes.body1}>
+          <Typography variant="body1" align="left" className={classes.body1}>
             <LocationOn/> Remote
           </Typography>
         </Box>
@@ -245,15 +266,15 @@ const Resume = () => {
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
-            align="left"
+            align="right"
             className={classes.subHeading}
           >
             Front End Developer
           </Typography>
-          <Typography variant="body1" align="left" className={classes.body1}>
+          <Typography variant="body1" align="right" className={classes.body1}>
             Freelancer.com
           </Typography>
-          <Typography variant="body1" align="left" className={classes.body1}>
+          <Typography variant="body1" align="right" className={classes.body1}>
             <LocationOn/> Remote
           </Typography>
         </Box>
@@ -269,15 +290,15 @@ const Resume = () => {
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
-            align="right"
+            align="left"
             className={classes.subHeading}
           >
             Front End Developer
           </Typography>
-          <Typography variant="body1" align="right" className={classes.body1}>
+          <Typography variant="body1" align="left" className={classes.body1}>
             Crowd Genie Finanical Services
           </Typography>
-          <Typography variant="body1" align="right" className={classes.body1}>
+          <Typography variant="body1" align="left" className={classes.body1}>
             <LocationOn/> Singapore
           </Typography>
         </Box>
@@ -293,15 +314,15 @@ const Resume = () => {
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
-            align="left"
+            align="right"
             className={classes.subHeading}
           >
             Frontend Developer
           </Typography>
-          <Typography variant="body1" align="left" className={classes.body1}>
+          <Typography variant="body1" align="right" className={classes.body1}>
             FastDev AB
           </Typography>
-          <Typography variant="body1" align="left" className={classes.body1}>
+          <Typography variant="body1" align="right" className={classes.body1}>
             <LocationOn/> Izhevsk, Russia Remote
           </Typography>
         </Box>

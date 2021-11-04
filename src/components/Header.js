@@ -19,7 +19,7 @@ const contactmenuItems = [
   { listIcon: <EmailIcon />, listText: "Email", listPath: "mailto:top.star0527@gmail.com" },
   { listIcon: <GitHubIcon />, listText: "Github", listPath: "https://github.com/topstar0527" },
   { listIcon: <WhatsAppIcon />, listText: "WhatsApp +7 706 663 9926", listPath: "#" },
-  { listIcon: <LinkedInIcon />, listText: "LinkedIn", listPath: "https://www.linkedin.com/in/kirill-jin-802584216" },
+  { listIcon: <LinkedInIcon />, listText: "LinkedIn", listPath: "https://www.linkedin.com/in/sergey-jin-1a1099218/" },
 ];
 
 
@@ -65,10 +65,10 @@ const Header = () => {
   return (
     <Box className={classes.typedContainer}>
       <Grid container justify="center">
-        <Avatar className={classes.avatar} src={avatar} alt="KIRILL JIN" />
+        <Avatar className={classes.avatar} src={avatar} alt="Sergey" />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={["KIRILL JIN"]} typeSpeed={40} />
+        <Typed strings={["Sergey Jin"]} typeSpeed={40} />
       </Typography>
 
       <Typography className={classes.subtitle} variant="h5">
@@ -86,14 +86,14 @@ const Header = () => {
 
       <br />
       {contactmenuItems.map((item, i) => (
-        <a href={item.listPath} key={i} className={classes.noUnderbar} target="_blank">
+        <a href={item.listPath} key={i} className={classes.noUnderbar}>
           <span className={classes.title}>
             {item.listIcon}
           </span>
         </a>
       ))}
       <br />
-      <a target="_blank" className={classes.nounerline} rel="noopener noreferrer" href="https://drive.google.com/file/d/1ALix8__hM6T-pPID8iBW6XZcVgspdVre/view?usp=sharing"><Button className={classes.resume} ><Icon icon={download} className={classes.mr15}/>Resume</Button></a>
+      <a target="_blank" className={classes.nounerline} rel="noopener noreferrer" href="https://drive.google.com/file/d/1ZZfSvPDcyIt5tCZvr6gP7SKubu9KTZWX/view?usp=sharing"><Button className={classes.resume} ><Icon icon={download} className={classes.mr15}/>Resume</Button></a>
     </Box>
   );
 };

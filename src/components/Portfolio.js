@@ -9,7 +9,13 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import { Link } from "react-router-dom";
+
+import sneakqik from "../images/sneakqik.png";
+import waverley from "../images/waverley.png";
+import teamvate from "../images/teamvate.png";
+import jockgod from "../images/jockgod.png";
+import gplans from "../images/gplans.png";
+import cryptiswap from "../images/cryptiswap.png";
 
 import project1 from "../images/react.PNG";
 import project2 from "../images/next.PNG";
@@ -40,6 +46,48 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const projects = [
+  {
+    name: "Next - SneakQik",
+    description: `Next, SASS, Node, MySQL`,
+    image: sneakqik,
+    url: "https://sneakqik.com/",
+    src: "",
+  },
+  {
+    name: "Ionic React - Waverley",
+    description: `Ionic React, SASS`,
+    image: waverley,
+    url: "https://waverley.smartcitiestransport.com/tutorial",
+    src: "",
+  },
+  {
+    name: "Laravel, React Native - Teamvate",
+    description: `React Native, SASS, Laravel, MySQL`,
+    image: teamvate,
+    url: "https://teamvate.com/",
+    src: "",
+  },
+  {
+    name: "Wordpress - JockGod",
+    description: `Wordpress, SASS, DateTheme Customization`,
+    image: jockgod,
+    url: "https://jockgod.com/",
+    src: "",
+  },
+  {
+    name: "Nuxt, React Native - G-Plans",
+    description: `Nuxt, SASS, React Native, Nodejs, MongoDB`,
+    image: gplans,
+    url: "https://g-plans.com/",
+    src: "",
+  },
+  {
+    name: "React - CryptiSwap",
+    description: `React, SASS, BlockChain, C#`,
+    image: cryptiswap,
+    url: "https://cryptiswap.org/",
+    src: "",
+  },
   {
     name: "Vue - Learning League",
     description: 'HTML, CSS, Javascript, Vue, Vuetify, CometChat, Firebase',

@@ -129,7 +129,7 @@ const Skills = () => {
             <Box component="div">
                 <Grid container spacing={3}>
                     <Grid item xs={6}>
-                        <span className="skillName">React / Next / Vue / Nuxt / Electron</span>
+                        <span className="skillName">React / Next / React Native / Electron</span>
                         <div class="progress">
                             <div class="progress-js"></div>
                         </div>
