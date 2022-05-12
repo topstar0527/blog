@@ -12,14 +12,10 @@ import { Icon } from '@iconify/react';
 import download from '@iconify/icons-mdi/download';
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 const contactmenuItems = [
   { listIcon: <EmailIcon />, listText: "Email", listPath: "mailto:top.star0527@gmail.com" },
   { listIcon: <GitHubIcon />, listText: "Github", listPath: "https://github.com/topstar0527" },
-  { listIcon: <WhatsAppIcon />, listText: "WhatsApp +7 706 663 9926", listPath: "#" },
-  { listIcon: <LinkedInIcon />, listText: "LinkedIn", listPath: "https://www.linkedin.com/in/sergey-jin-1a1099218/" },
 ];
 
 
@@ -93,7 +89,7 @@ const Header = () => {
         </a>
       ))}
       <br />
-      <a target="_blank" className={classes.nounerline} rel="noopener noreferrer" href="https://drive.google.com/file/d/1ZZfSvPDcyIt5tCZvr6gP7SKubu9KTZWX/view?usp=sharing"><Button className={classes.resume} ><Icon icon={download} className={classes.mr15}/>Resume</Button></a>
+      <a target="_blank" className={classes.nounerline} rel="noopener noreferrer" href="https://drive.google.com/file/d/1f3sQsrHdfcsmA_2PdgOPaYZwDMHkleSC/view?usp=sharing"><Button className={classes.resume} ><Icon icon={download} className={classes.mr15}/>Resume</Button></a>
     </Box>
   );
 };

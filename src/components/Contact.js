@@ -6,8 +6,6 @@ import Grid from "@material-ui/core/Grid";
 
 import EmailIcon from '@material-ui/icons/Email';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import { mdiSlack } from '@mdi/js';
 import { mdiSkypeBusiness } from '@mdi/js';
 import { mdiDiscord } from '@mdi/js';
@@ -44,7 +42,7 @@ const contacts = [
   },
   {
     icon: <Icon path={mdiSkypeBusiness} size={1} title="Skype"/>,
-    detail : "forpeacefulworld0527",
+    detail : "live:.cid.e744e039d04c5233",
   },
   {
     icon: <Icon path={mdiSlack} size={1} title="Slack"/>,
@@ -53,14 +51,6 @@ const contacts = [
   {
     icon: <Icon path={mdiDiscord} size={1} title="Discord"/>  ,
     detail : "topstar0527",
-  },
-  {
-    icon: <LinkedInIcon/>,
-    detail : "https://www.linkedin.com/in/sergey-jin-1a1099218/"
-  },
-  {
-    icon: <WhatsAppIcon/>,
-    detail : "+7 706 663 9926"
   },
   {
     icon: <GitHubIcon/>,
